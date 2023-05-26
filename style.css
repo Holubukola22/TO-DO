@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 5rem;
+    background-image: url(picss.jfif);
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+    height: 80%;
+    padding: 3rem 1rem;
+    background-color: rgb(41, 9, 224);
+    border-radius: 3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: aqua;
+}
+
+.input-task {
+    display: flex;
+    width: 90%;
+    font-size: 1.5rem;
+    margin: 2.4rem;
+    margin-bottom: 3rem
+}
+
+input {
+    width: 70;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 1.3rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 3rem;
+}
+
+.task-btn {
+    padding: 10px 25px;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom-right-radius: .4rem;
+    border-top-right-radius: .4rem;
+    background-color: #226ddd;
+    cursor: pointer;
+}
+
+.task-btn:hover {
+    opacity: .5;
+    transition: .7s ease;
+}
+
+main {
+    max-width: 750px;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+thead {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(.5rem)
+}
+
+thead .serial {
+    text-align: center;
+}
+
+thead .task {
+    text-align: start;
+}
+
+thead .action {
+    text-align: center;
+}
+
+th,td {
+    padding: 2rem;
+    font-weight: 600;
+}
+
+th {
+    color: antiquewhite;
+}
+
+td {
+    color: #226ddd;
+}
+
+.serial-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-detail {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.action-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
